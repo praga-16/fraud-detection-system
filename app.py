@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 import pandas as pd
 
-API_URL = "http://127.0.0.1:8000"
-HEADERS = {"x-api-key": "mysecurekey123"}  # 🔐 SECURITY
+API_URL = "https://fraud-detection-system-tspk.onrender.com"
+HEADERS = {"x-api-key": "mysecurekey123"}    # 🔐 SECURITY
 
 st.set_page_config(page_title="Fraud Dashboard", layout="wide")
 
